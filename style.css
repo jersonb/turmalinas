@@ -51,8 +51,8 @@ ul{
 
     background-image:
         url(imgs/turmalinas-tech-logo-transparent.png);
-    background-size: 15%, 15%;
-    background-position: top left, top right;
+    background-size:  10%;
+    background-position:  top right;
     background-repeat: no-repeat;
 
     border-bottom-color: rgb(5, 24, 41);
@@ -92,6 +92,12 @@ ul{
 }
 
 .links .foto-qr-code-github {
+    width: 40vh;
+    border-radius: 15%;
+    border: 1vh solid black;
+}
+
+.links .foto-qr-code-youtube {
     width: 40vh;
     border-radius: 15%;
     border: 1vh solid black;
