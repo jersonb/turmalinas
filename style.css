@@ -34,7 +34,7 @@ img {
     align-self: center;
 }
 
-ul{
+ul {
     list-style-image: url(imgs/favicon.ico);
     text-align: left;
 }
@@ -51,8 +51,8 @@ ul{
 
     background-image:
         url(imgs/turmalinas-tech-logo-transparent.png);
-    background-size:  10%;
-    background-position:  top right;
+    background-size: 10%;
+    background-position: top right;
     background-repeat: no-repeat;
 
     border-bottom-color: rgb(5, 24, 41);
@@ -63,64 +63,21 @@ ul{
     justify-content: space-around;
 }
 
-.presentation .qr-code-palestra {
-    width: 60vh;
-    height: 60vh;
-    border-radius: 2em;
-    border: 6px solid black;
-}
-
 .links {
-    flex-flow: column wrap;
+    display: flex;
+
+    justify-content: space-evenly;
 }
 
-.links .foto-linkedin {
-    width: 60vh;
+.links .avatar {
+    width: 50vh;
 
     border-radius: 50%;
     border: 1vh solid black;
-    margin: 2em;
-    align-self: center;
 }
 
-.links .foto-qr-code-linkedin {
-    width: 40vh;
-
-    border-radius: 15%;
-    border: 1vh solid black;
-    margin-top: 4em;
-}
-
-.links .foto-qr-code-github {
-    width: 40vh;
-    border-radius: 15%;
-    border: 1vh solid black;
-}
-
-.links .foto-qr-code-youtube {
-    width: 40vh;
-    border-radius: 15%;
-    border: 1vh solid black;
-}
-
-.standard-approach img{
-    width: 60vw;
-}
-
-.tdd-explanation .gif-tdd{
+.links .qrcode-linkme {
     width: 50vh;
-    height: 50vh;
-    animation: infinite;
-}
-
-.using-tests img{
-    width: 100vh;
-}
-
-.jokenpo-example img{
-    width: 100vh;
-}
-
-.considerations img{
-    width: 40vh;
+    border-radius: 15%;
+    border: 1vh solid black;
 }
