@@ -35,7 +35,7 @@ img {
 }
 
 ul {
-    list-style-image: url(imgs/favicon.ico);
+    list-style-image: url(imgs/favicon.png);
     text-align: left;
 }
 
@@ -80,4 +80,20 @@ ul {
     width: 50vh;
     border-radius: 15%;
     border: 1vh solid black;
+}
+
+.links .git-logo{
+    background-color: rgba(240, 248, 255, 0.61) ;
+    padding: 1em;
+    border-radius: 1em;
+    width: 80vh;
+}
+.links .linux-logo{
+    width: 70vh;
+}
+
+.photo-linus{
+    width: 60vh;
+    border-radius: 1em;
+
 }
