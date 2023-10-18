@@ -96,12 +96,14 @@ ul {
     width: 60vh;
     border-radius: 1em;
 }
+
 .links .github-logo{
     background-color: white ;
     padding: 1em;
     border-radius: 1em;
     width: 70vh;
 }
+
 .links .microsoft-logo{
     width: 75vh;
     border-radius: 1em;
@@ -111,6 +113,7 @@ ul {
     width: 60vh;
     animation: infinite;
 }
+
 .links .file-small{
     width: 40vh;
     animation: infinite;

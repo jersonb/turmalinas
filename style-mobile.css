@@ -24,4 +24,13 @@
     h3 {
         font-size: 6vw;
     }
+
+    .links .file{
+        width: 30vh;
+    }
+
+    .links .file-small{
+        width: 20vh;
+        animation: infinite;
+    }
 }
