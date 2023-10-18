@@ -106,3 +106,12 @@ ul {
     width: 75vh;
     border-radius: 1em;
 }
+
+.links .file{
+    width: 60vh;
+    animation: infinite;
+}
+.links .file-small{
+    width: 40vh;
+    animation: infinite;
+}
